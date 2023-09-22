@@ -15,3 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello, world!" 
+
+  test-3:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, world!" 
