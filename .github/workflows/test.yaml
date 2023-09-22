@@ -1,0 +1,17 @@
+name: api
+
+on:
+  push:
+    branches:
+      - "*"
+
+jobs:
+  test-1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, world!" 
+
+  test-2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, world!" 
